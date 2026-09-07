@@ -5,13 +5,13 @@ about:
   head: 12ad6fb
   archived: false
   latestVersion: "v0.11.0"
-  collectedAt: 2026-09-07T06:05:34Z
+  collectedAt: 2026-09-07T18:22:40Z
 timeline:
   created: 2017-03-30
   lastCommit: 2026-07-26
   lastRelease: 2026-03-27
 popularity:
-  star: 19974
+  star: 19978
   watcher: 136
   fork: 1382
   release: 24
@@ -80,7 +80,7 @@ total:
   commit: 341
 ---
 path: /home/runner/.x-repo/github.com/ahmetb/kubectx
-collectedAt: 2026-09-07T06:05:34Z
+collectedAt: 2026-09-07T18:22:42Z
 loc:
   Go:
     code: 4719
@@ -234,7 +234,7 @@ checks:
       - 'Info: Project packages its releases by way of GitHub Actions.: .github/workflows/ci.yml:20'
 ---
 eget:
-  collectedAt: 2026-09-07T06:05:35+00:00
+  collectedAt: 2026-09-07T18:22:45+00:00
   platform:
     darwin/arm64:
       name:  kubectx_v0.11.0_darwin_arm64.tar.gz
