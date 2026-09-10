@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 2418,
       "digest": "sha256:8caf6b287ebc62a628b98dadfccd765a6c9f2c68c87df5fb0fb22cf060ec105b",
-      "download_count": 6282,
+      "download_count": 6322,
       "created_at": "2026-03-27T03:13:18Z",
       "updated_at": "2026-03-27T03:13:18Z",
       "browser_download_url": "https://github.com/ahmetb/kubectx/releases/download/v0.11.0/checksums.txt"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 6263,
       "digest": "sha256:1905c04422efe305d5b27f7526c3573a8c00b9e291e825dba6dd8a5350d59037",
-      "download_count": 59856,
+      "download_count": 60196,
       "created_at": "2026-03-27T03:13:19Z",
       "updated_at": "2026-03-27T03:13:19Z",
       "browser_download_url": "https://github.com/ahmetb/kubectx/releases/download/v0.11.0/kubectx"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 4866080,
       "digest": "sha256:b8c9b5150ca6d902474a115cf7e535831081b9ae10cbe561ea36c82bb3823d02",
-      "download_count": 6168,
+      "download_count": 6223,
       "created_at": "2026-03-27T03:13:12Z",
       "updated_at": "2026-03-27T03:13:13Z",
       "browser_download_url": "https://github.com/ahmetb/kubectx/releases/download/v0.11.0/kubectx_v0.11.0_darwin_arm64.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 5256842,
       "digest": "sha256:80097893b478c55be51ffe826c172f0fd5095d23cca02adbcbcabc412700a689",
-      "download_count": 694,
+      "download_count": 703,
       "created_at": "2026-03-27T03:13:14Z",
       "updated_at": "2026-03-27T03:13:15Z",
       "browser_download_url": "https://github.com/ahmetb/kubectx/releases/download/v0.11.0/kubectx_v0.11.0_darwin_x86_64.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 4690533,
       "digest": "sha256:1dac2072216689e773325cb7587b858ea7415706ebcf04e23bf80e7e70555340",
-      "download_count": 10537,
+      "download_count": 10618,
       "created_at": "2026-03-27T03:13:13Z",
       "updated_at": "2026-03-27T03:13:14Z",
       "browser_download_url": "https://github.com/ahmetb/kubectx/releases/download/v0.11.0/kubectx_v0.11.0_linux_arm64.tar.gz"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 5175790,
       "digest": "sha256:08e031c54fbffb3f100e904e4eae94bba2730fedf4869921fda79e4d7a8f5d4c",
-      "download_count": 178670,
+      "download_count": 179963,
       "created_at": "2026-03-27T03:13:15Z",
       "updated_at": "2026-03-27T03:13:15Z",
       "browser_download_url": "https://github.com/ahmetb/kubectx/releases/download/v0.11.0/kubectx_v0.11.0_linux_x86_64.tar.gz"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 4756800,
       "digest": "sha256:b195c4e6aaa65585df35b5f4cde8516b844d961026517198a7da9d631442417f",
-      "download_count": 462,
+      "download_count": 463,
       "created_at": "2026-03-27T03:13:12Z",
       "updated_at": "2026-03-27T03:13:13Z",
       "browser_download_url": "https://github.com/ahmetb/kubectx/releases/download/v0.11.0/kubectx_v0.11.0_windows_arm64.zip"
@@ -535,7 +535,7 @@
       "state": "uploaded",
       "size": 5323678,
       "digest": "sha256:a28fc2f0c69e715c34ea6d7520b9a17aa00cea642ff6fab0c64614d436d47a5d",
-      "download_count": 14682,
+      "download_count": 14766,
       "created_at": "2026-03-27T03:13:14Z",
       "updated_at": "2026-03-27T03:13:15Z",
       "browser_download_url": "https://github.com/ahmetb/kubectx/releases/download/v0.11.0/kubectx_v0.11.0_windows_x86_64.zip"
@@ -571,7 +571,7 @@
       "state": "uploaded",
       "size": 5703,
       "digest": "sha256:bf81b4a515e96bfb1878e3b85950bd5742d96a5d6b398e737495ab1b3972ef70",
-      "download_count": 55672,
+      "download_count": 55984,
       "created_at": "2026-03-27T03:13:18Z",
       "updated_at": "2026-03-27T03:13:19Z",
       "browser_download_url": "https://github.com/ahmetb/kubectx/releases/download/v0.11.0/kubens"
@@ -607,7 +607,7 @@
       "state": "uploaded",
       "size": 7884437,
       "digest": "sha256:b1c87ddca22f1afc3e980ac807a715cd1183750022798d28a0a4e0cf66bec4e3",
-      "download_count": 2760,
+      "download_count": 2780,
       "created_at": "2026-03-27T03:13:17Z",
       "updated_at": "2026-03-27T03:13:17Z",
       "browser_download_url": "https://github.com/ahmetb/kubectx/releases/download/v0.11.0/kubens_v0.11.0_darwin_arm64.tar.gz"
@@ -643,7 +643,7 @@
       "state": "uploaded",
       "size": 8758479,
       "digest": "sha256:9dbe1bf26fd911f2f56661a2f34bf2fe32dfd3af5f11287d0a864da92a746509",
-      "download_count": 510,
+      "download_count": 517,
       "created_at": "2026-03-27T03:13:15Z",
       "updated_at": "2026-03-27T03:13:16Z",
       "browser_download_url": "https://github.com/ahmetb/kubectx/releases/download/v0.11.0/kubens_v0.11.0_darwin_x86_64.tar.gz"
@@ -679,7 +679,7 @@
       "state": "uploaded",
       "size": 7561883,
       "digest": "sha256:37058abe82ef20c93b44f3dc8ca2382dbb95d416cec958fbf7b8f79f011be86c",
-      "download_count": 8010,
+      "download_count": 8069,
       "created_at": "2026-03-27T03:13:17Z",
       "updated_at": "2026-03-27T03:13:17Z",
       "browser_download_url": "https://github.com/ahmetb/kubectx/releases/download/v0.11.0/kubens_v0.11.0_linux_arm64.tar.gz"
@@ -859,7 +859,7 @@
       "state": "uploaded",
       "size": 8629090,
       "digest": "sha256:326c021c7b35468ed9a187b361198d0f22ae32828139c65eb6670c0d8301cc09",
-      "download_count": 51900,
+      "download_count": 52319,
       "created_at": "2026-03-27T03:13:18Z",
       "updated_at": "2026-03-27T03:13:18Z",
       "browser_download_url": "https://github.com/ahmetb/kubectx/releases/download/v0.11.0/kubens_v0.11.0_linux_x86_64.tar.gz"
@@ -1003,7 +1003,7 @@
       "state": "uploaded",
       "size": 8845949,
       "digest": "sha256:aa10daca6ce321377d61a7e9534911df9eee42a0b6e198000757f8d1e8d0a480",
-      "download_count": 11077,
+      "download_count": 11126,
       "created_at": "2026-03-27T03:13:16Z",
       "updated_at": "2026-03-27T03:13:16Z",
       "browser_download_url": "https://github.com/ahmetb/kubectx/releases/download/v0.11.0/kubens_v0.11.0_windows_x86_64.zip"
