@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 19,994 · **Forks**: 1,381 · **Open issues**: 259 · **Contributors**: 68
+- **Stars**: 20,002 · **Forks**: 1,380 · **Open issues**: 259 · **Contributors**: 68
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-22 | 0 | 0 | 0 | 0 | 2 | 0 |
-| last60d | 2026-07-23 | 0 | 1 | 0 | 0 | 4 | 0 |
-| 90d | 2026-06-23 | 0 | 6 | 0 | 0 | 4 | 8 |
-| last180d | 2026-03-25 | 1 | 12 | 1 | 2 | 5 | 16 |
-| 360d | 2025-09-26 | 3 | 41 | 3 | 8 | 7 | 58 |
-| last720d | 2024-10-01 | 3 | 44 | 3 | 19 | 10 | 83 |
+| 30d | 2026-08-23 | 0 | 0 | 0 | 0 | 2 | 0 |
+| last60d | 2026-07-24 | 0 | 1 | 0 | 0 | 4 | 0 |
+| 90d | 2026-06-24 | 0 | 6 | 0 | 0 | 4 | 8 |
+| last180d | 2026-03-26 | 1 | 12 | 1 | 2 | 5 | 16 |
+| 360d | 2025-09-27 | 3 | 41 | 3 | 8 | 7 | 58 |
+| last720d | 2024-10-02 | 3 | 44 | 3 | 19 | 10 | 83 |
 
 ## Release assets
 
@@ -106,4 +106,4 @@ Install metadata for kubectx lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260921.yml` · 2026-09-21T06:45:03Z._
+_Snapshot: `data/card/260922.yml` · 2026-09-22T06:41:21Z._
