@@ -4,7 +4,7 @@
 
 Faster way to switch between clusters and namespaces in kubectl
 
-[![x-cmd/install — kubectx Code Quality Monitoring Repo Card](https://repo.x-cmd.io/kubectx.svg?lang=zh)](https://x-cmd.com/install/kubectx)
+[![x-cmd/install — kubectx Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/kubectx.svg?lang=zh)](https://x-cmd.com/install/kubectx)
 
 ## 安装
 
@@ -48,22 +48,22 @@ x install kubectx
 
 ## 流行度
 
-- **Star**: 20,002 · **Fork**: 1,380 · **开放 issue**: 259 · **贡献者**: 68
+- **Star**: 20,008 · **Fork**: 1,380 · **开放 issue**: 259 · **贡献者**: 68
 
 ## 累计统计
 
-- **发布数**: 24 · **已合并 PR**: 142 · **开放 PR**: 3 · **已关闭 issue**: 220 · **开放 issue**: 39 · **提交数**: 341
+- **发布数**: 24 · **已合并 PR**: 142 · **开放 PR**: 2 · **已关闭 issue**: 221 · **开放 issue**: 38 · **提交数**: 341
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 0 | 0 | 0 | 2 | 0 |
-| last60d | 2026-07-24 | 0 | 1 | 0 | 0 | 4 | 0 |
-| 90d | 2026-06-24 | 0 | 6 | 0 | 0 | 4 | 8 |
-| last180d | 2026-03-26 | 1 | 12 | 1 | 2 | 5 | 16 |
-| 360d | 2025-09-27 | 3 | 41 | 3 | 8 | 7 | 58 |
-| last720d | 2024-10-02 | 3 | 44 | 3 | 19 | 10 | 83 |
+| 30d | 2026-08-24 | 0 | 0 | 0 | 0 | 2 | 0 |
+| last60d | 2026-07-25 | 0 | 1 | 0 | 0 | 4 | 0 |
+| 90d | 2026-06-25 | 0 | 6 | 0 | 0 | 4 | 8 |
+| last180d | 2026-03-27 | 1 | 12 | 1 | 2 | 5 | 16 |
+| 360d | 2025-09-28 | 3 | 41 | 2 | 9 | 6 | 58 |
+| last720d | 2024-10-03 | 3 | 44 | 2 | 20 | 9 | 83 |
 
 ## Release 资产
 
@@ -106,4 +106,4 @@ kubectx 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T06:41:22Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T06:40:16Z._
