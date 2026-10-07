@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-06 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last60d | 2026-08-07 | 0 | 0 | 1 | 0 | 4 | 0 |
-| 90d | 2026-07-08 | 0 | 5 | 1 | 0 | 4 | 8 |
-| last180d | 2026-04-09 | 0 | 12 | 2 | 2 | 5 | 12 |
-| 360d | 2025-10-11 | 3 | 41 | 3 | 9 | 6 | 58 |
-| last720d | 2024-10-16 | 3 | 44 | 3 | 19 | 9 | 83 |
+| 30d | 2026-09-07 | 0 | 0 | 1 | 0 | 0 | 0 |
+| last60d | 2026-08-08 | 0 | 0 | 1 | 0 | 4 | 0 |
+| 90d | 2026-07-09 | 0 | 5 | 1 | 0 | 4 | 8 |
+| last180d | 2026-04-10 | 0 | 12 | 2 | 2 | 5 | 12 |
+| 360d | 2025-10-12 | 3 | 41 | 3 | 9 | 6 | 58 |
+| last720d | 2024-10-17 | 3 | 44 | 3 | 19 | 9 | 83 |
 
 ## Release assets
 
@@ -106,4 +106,4 @@ Install metadata for kubectx lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261006.yml` · 2026-10-06T07:42:40Z._
+_Snapshot: `data/card/261007.yml` · 2026-10-07T07:23:05Z._
