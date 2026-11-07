@@ -1,21 +1,18 @@
-- repo: wakemeops
-  subrepo: devops
-  binname: kubectx
+- repo: raspbian_testing
+  subrepo: main
+  srcname: kubectx
+  binnames:
+    - kubectx
   visiblename: kubectx
   version: 0.11.0
-  origversion: 0.11.0-3~ops2deb
+  origversion: 0.11.0-2
   status: newest
   maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: devops
-  binname: kubectx
-  visiblename: kubectx
-  version: 0.10.2
-  origversion: 0.10.2-3~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
+    - team+kubernetes@tracker.debian.org
+    - arthurbdiniz@gmail.com
+    - czchen@debian.org
+  categories:
+    - misc
 - repo: alpine_3_17
   subrepo: community
   srcname: kubectx
@@ -133,6 +130,21 @@
     - michal@polanski.me
   licenses:
     - Apache-2.0
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: kubectx
+  binnames:
+    - kubectx
+  visiblename: kubectx
+  version: 0.9.5
+  origversion: 0.9.5-2
+  status: outdated
+  maintainers:
+    - team+kubernetes@tracker.debian.org
+    - arthurbdiniz@gmail.com
+    - czchen@debian.org
+  categories:
+    - misc
 - repo: alpine_3_19
   subrepo: community
   srcname: kubectx
@@ -194,19 +206,6 @@
   origversion: 0.9.5-r8
   status: outdated
   summary: Bash completions for kubectx
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-- repo: alpine_edge
-  subrepo: community
-  srcname: kubectx
-  binname: kubectx-fish-completion
-  visiblename: kubectx-fish-completion
-  version: 0.11.0
-  origversion: 0.11.0-r4
-  status: newest
-  summary: Fish completions for kubectx
   maintainers:
     - michal@polanski.me
   licenses:
@@ -467,6 +466,19 @@
   origversion: 0.11.0-r4
   status: newest
   summary: Bash completions for kubectx
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_edge
+  subrepo: community
+  srcname: kubectx
+  binname: kubectx-fish-completion
+  visiblename: kubectx-fish-completion
+  version: 0.11.0
+  origversion: 0.11.0-r4
+  status: newest
+  summary: Fish completions for kubectx
   maintainers:
     - michal@polanski.me
   licenses:
@@ -533,8 +545,8 @@
     - czchen@debian.org
   categories:
     - misc
-- repo: debian_13
-  subrepo: trixie/main
+- repo: raspbian_stable
+  subrepo: main
   srcname: kubectx
   binnames:
     - kubectx
@@ -752,23 +764,23 @@
   srcname: kubectx
   binname: kubectx
   visiblename: kubectx
-  version: 0.9.4
-  origversion: 0.9.4-1
-  status: outdated
+  version: 0.11.0
+  origversion: 0.11.0-1
+  status: newest
   summary: Utility to manage and switch between kubectl contexts and Kubernetes namespaces
   licenses:
-    - Apache
+    - Apache-2.0
 - repo: manjaro_testing
   subrepo: extra
   srcname: kubectx
   binname: kubectx
   visiblename: kubectx
-  version: 0.9.4
-  origversion: 0.9.4-1
-  status: outdated
+  version: 0.11.0
+  origversion: 0.11.0-1
+  status: newest
   summary: Utility to manage and switch between kubectl contexts and Kubernetes namespaces
   licenses:
-    - Apache
+    - Apache-2.0
 - repo: manjaro_unstable
   subrepo: extra
   srcname: kubectx
@@ -824,21 +836,6 @@
     - jl@lafuente.me
   licenses:
     - Apache-2.0
-- repo: ubuntu_25_04
-  subrepo: plucky/universe
-  srcname: kubectx
-  binnames:
-    - kubectx
-  visiblename: kubectx
-  version: 0.9.5
-  origversion: 0.9.5-2
-  status: outdated
-  maintainers:
-    - team+kubernetes@tracker.debian.org
-    - arthurbdiniz@gmail.com
-    - czchen@debian.org
-  categories:
-    - universe/misc
 - repo: nix_stable_26_05
   srcname: kubectx
   visiblename: kubectx
@@ -863,17 +860,6 @@
     - prinn.dev@pm.me
   licenses:
     - Apache-2.0
-- repo: openpkg_current
-  srcname: kubectx
-  visiblename: kubectx
-  version: 0.9.5.20250824
-  origversion: null
-  status: outdated
-  summary: Kubernetes Context Switcher
-  licenses:
-    - Apache
-  categories:
-    - Text
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: kubectx
@@ -981,36 +967,6 @@
     - czchen@debian.org
   categories:
     - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: kubectx
-  binnames:
-    - kubectx
-  visiblename: kubectx
-  version: 0.9.5
-  origversion: 0.9.5-2
-  status: outdated
-  maintainers:
-    - team+kubernetes@tracker.debian.org
-    - arthurbdiniz@gmail.com
-    - czchen@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: kubectx
-  binnames:
-    - kubectx
-  visiblename: kubectx
-  version: 0.11.0
-  origversion: 0.11.0-2
-  status: newest
-  maintainers:
-    - team+kubernetes@tracker.debian.org
-    - arthurbdiniz@gmail.com
-    - czchen@debian.org
-  categories:
-    - misc
 - repo: scoop
   subrepo: main
   binname: kubectx
@@ -1060,6 +1016,21 @@
     - czchen@debian.org
   categories:
     - universe/misc
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: kubectx
+  binnames:
+    - kubectx
+  visiblename: kubectx
+  version: 0.9.5
+  origversion: 0.9.5-2
+  status: outdated
+  maintainers:
+    - team+kubernetes@tracker.debian.org
+    - arthurbdiniz@gmail.com
+    - czchen@debian.org
+  categories:
+    - universe/misc
 - repo: ubuntu_25_10
   subrepo: questing/universe
   srcname: kubectx
@@ -1105,12 +1076,45 @@
     - czchen@debian.org
   categories:
     - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
+  srcname: kubectx
+  binnames:
+    - kubectx
+  visiblename: kubectx
+  version: 0.11.0
+  origversion: 0.11.0-1
+  status: newest
+  maintainers:
+    - team+kubernetes@tracker.debian.org
+    - arthurbdiniz@gmail.com
+    - czchen@debian.org
+  categories:
+    - universe/misc
 - repo: wakemeops
   subrepo: devops
   binname: kubectx
   visiblename: kubectx
   version: 0.9.4
   origversion: 0.9.4-3~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: devops
+  binname: kubectx
+  visiblename: kubectx
+  version: 0.11.0
+  origversion: 0.11.0-3~ops2deb
+  status: newest
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: devops
+  binname: kubectx
+  visiblename: kubectx
+  version: 0.10.2
+  origversion: 0.10.2-3~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
