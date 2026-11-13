@@ -24,6 +24,16 @@ Total: **5,194** lines of code across **76** files in the top 5 languages.
 | Zsh | 15 | 3 | 4 | 2 |
 | Markdown | 0 | 164 | 69 | 2 |
 
+## OpenSSF Scorecard
+
+Overall score: **3.2 / 10**
+
+Lowest-scoring checks:
+
+- **Code-Review** (0/10) — Found 0/6 approved changesets -- score normalized to 0
+- **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+
 ## Source
 
 - **Upstream**: <https://github.com/ahmetb/kubectx>
@@ -38,7 +48,7 @@ Total: **5,194** lines of code across **76** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 20,103 · **Forks**: 1,387 · **Open issues**: 259 · **Contributors**: 68
+- **Stars**: 20,112 · **Forks**: 1,387 · **Open issues**: 259 · **Contributors**: 68
 
 ## Totals (cumulative)
 
@@ -48,12 +58,12 @@ Total: **5,194** lines of code across **76** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-13 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-13 | 0 | 0 | 1 | 0 | 0 | 0 |
-| 90d | 2026-08-14 | 0 | 0 | 1 | 0 | 3 | 0 |
-| last180d | 2026-05-16 | 0 | 7 | 1 | 2 | 4 | 10 |
-| 360d | 2025-11-17 | 3 | 41 | 3 | 9 | 6 | 58 |
-| last720d | 2024-11-22 | 3 | 44 | 3 | 19 | 8 | 83 |
+| 30d | 2026-10-14 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-14 | 0 | 0 | 1 | 0 | 0 | 0 |
+| 90d | 2026-08-15 | 0 | 0 | 1 | 0 | 3 | 0 |
+| last180d | 2026-05-17 | 0 | 7 | 1 | 2 | 4 | 0 |
+| 360d | 2025-11-18 | 3 | 41 | 3 | 9 | 6 | 0 |
+| last720d | 2024-11-23 | 3 | 44 | 3 | 19 | 8 | 83 |
 
 ## Release assets
 
@@ -113,4 +123,4 @@ Install metadata for kubectx lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261112.yml` · 2026-11-12T09:01:39Z._
+_Snapshot: `data/card/261113.yml` · 2026-11-13T08:27:05Z._
