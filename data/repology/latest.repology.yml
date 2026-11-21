@@ -28,19 +28,16 @@
     - czchen@debian.org
   categories:
     - misc
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: kubectx
-  binnames:
-    - kubectx
-  visiblename: kubectx
-  version: 0.9.3
-  origversion: 0.9.3-1
-  status: outdated
+- repo: slackbuilds
+  srcname: system/kubectx
+  visiblename: system/kubectx
+  version: 0.11.0
+  origversion: null
+  status: newest
   maintainers:
-    - czchen@debian.org
+    - willysr@slackbuilds.org
   categories:
-    - misc
+    - system
 - repo: pureos_landing
   subrepo: landing/main
   srcname: kubectx
@@ -56,6 +53,19 @@
     - czchen@debian.org
   categories:
     - devel
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: kubectx
+  binnames:
+    - kubectx
+  visiblename: kubectx
+  version: 0.9.3
+  origversion: 0.9.3-1
+  status: outdated
+  maintainers:
+    - czchen@debian.org
+  categories:
+    - misc
 - repo: scoop
   subrepo: main
   binname: kubectx
@@ -627,17 +637,6 @@
     - czchen@debian.org
   categories:
     - misc
-- repo: deepin_unstable
-  subrepo: main
-  srcname: kubectx
-  binnames:
-    - kubectx
-  visiblename: kubectx
-  version: 0.6.2
-  origversion: 0.6.2-1
-  status: outdated
-  maintainers:
-    - czchen@debian.org
 - repo: deepin_25
   subrepo: community
   srcname: kubectx
@@ -928,7 +927,7 @@
   licenses:
     - Apache-2.0
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: kubectx
   binnames:
     - kubectx
@@ -943,7 +942,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: kubectx
   binnames:
     - kubectx
@@ -976,31 +975,6 @@
     - czchen@debian.org
   categories:
     - devel
-- repo: slackbuilds
-  srcname: system/kubectx
-  visiblename: system/kubectx
-  version: 0.11.0
-  origversion: null
-  status: newest
-  maintainers:
-    - willysr@slackbuilds.org
-  categories:
-    - system
-- repo: ubuntu_24_04
-  subrepo: noble-updates/universe
-  srcname: kubectx
-  binnames:
-    - kubectx
-  visiblename: kubectx
-  version: 0.9.5
-  origversion: 0.9.5-1ubuntu0.4
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - arthurbdiniz@gmail.com
-    - czchen@debian.org
-  categories:
-    - universe/misc
 - repo: ubuntu_24_04
   subrepo: noble/universe
   srcname: kubectx
@@ -1012,6 +986,21 @@
   status: outdated
   maintainers:
     - team+kubernetes@tracker.debian.org
+    - arthurbdiniz@gmail.com
+    - czchen@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_24_04
+  subrepo: noble-updates/universe
+  srcname: kubectx
+  binnames:
+    - kubectx
+  visiblename: kubectx
+  version: 0.9.5
+  origversion: 0.9.5-1ubuntu0.4
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
     - arthurbdiniz@gmail.com
     - czchen@debian.org
   categories:
