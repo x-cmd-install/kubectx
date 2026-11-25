@@ -38,7 +38,7 @@ Total: **5,194** lines of code across **76** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 20,137 · **Forks**: 1,389 · **Open issues**: 259 · **Contributors**: 68
+- **Stars**: 20,147 · **Forks**: 1,390 · **Open issues**: 259 · **Contributors**: 68
 
 ## Totals (cumulative)
 
@@ -48,12 +48,12 @@ Total: **5,194** lines of code across **76** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-25 | 0 | 0 | 1 | 0 | 0 | 0 |
-| 90d | 2026-08-26 | 0 | 0 | 1 | 0 | 2 | 0 |
-| last180d | 2026-05-28 | 0 | 7 | 1 | 0 | 4 | 10 |
-| 360d | 2025-11-29 | 3 | 41 | 3 | 9 | 6 | 58 |
-| last720d | 2024-12-04 | 3 | 44 | 3 | 19 | 8 | 83 |
+| 30d | 2026-10-26 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-26 | 0 | 0 | 1 | 0 | 0 | 0 |
+| 90d | 2026-08-27 | 0 | 0 | 1 | 0 | 2 | 0 |
+| last180d | 2026-05-29 | 0 | 7 | 1 | 0 | 4 | 10 |
+| 360d | 2025-11-30 | 3 | 41 | 3 | 9 | 6 | 58 |
+| last720d | 2024-12-05 | 3 | 44 | 3 | 19 | 8 | 83 |
 
 ## Release assets
 
@@ -87,23 +87,6 @@ Total: **5,194** lines of code across **76** files in the top 5 languages.
 | [kubens_v0.11.0_windows_armv7.zip](https://github.com/ahmetb/kubectx/releases/download/v0.11.0/kubens_v0.11.0_windows_armv7.zip) | 7.9 MiB | `native/win/x64` |
 | [kubens_v0.11.0_windows_x86_64.zip](https://github.com/ahmetb/kubectx/releases/download/v0.11.0/kubens_v0.11.0_windows_x86_64.zip) | 8.4 MiB | `native/win/x64` |
 
-## Distribution status
-
-Reported by **87** distros on [repology.org](https://repology.org/project/kubectx). **32** are ✅ on the latest upstream release, **48** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `0.11.0` | ✅ latest |
-| Debian 14 | `0.11.0` | ✅ latest |
-| Debian 13 | `0.9.5` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `0.9.5` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `0.9.5` | ⚠️ outdated |
-| Arch | `0.11.0` | ✅ latest |
-| Homebrew | `0.11.0` | ✅ latest |
-| Nix unstable | `0.11.0` | ✅ latest |
-| Alpine edge | `0.11.0` | ✅ latest |
-| openSUSE Tumbleweed | `0.11.0` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for kubectx lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `kubectx` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -113,4 +96,4 @@ Install metadata for kubectx lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T10:31:47Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T10:27:02Z._
