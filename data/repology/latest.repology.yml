@@ -1,78 +1,30 @@
-- repo: raspbian_stable
-  subrepo: main
-  srcname: kubectx
-  binnames:
-    - kubectx
-  visiblename: kubectx
-  version: 0.9.5
-  origversion: 0.9.5-2
-  status: outdated
-  maintainers:
-    - team+kubernetes@tracker.debian.org
-    - arthurbdiniz@gmail.com
-    - czchen@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: kubectx
-  binnames:
-    - kubectx
-  visiblename: kubectx
-  version: 0.11.0
-  origversion: 0.11.0-2
-  status: newest
-  maintainers:
-    - team+kubernetes@tracker.debian.org
-    - arthurbdiniz@gmail.com
-    - czchen@debian.org
-  categories:
-    - misc
-- repo: slackbuilds
-  srcname: system/kubectx
-  visiblename: system/kubectx
-  version: 0.11.0
-  origversion: null
-  status: newest
-  maintainers:
-    - willysr@slackbuilds.org
-  categories:
-    - system
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: kubectx
-  binnames:
-    - kubectx
-  visiblename: kubectx
-  version: 0.9.5
-  origversion: 0.9.5-2
-  status: outdated
-  maintainers:
-    - team+kubernetes@tracker.debian.org
-    - arthurbdiniz@gmail.com
-    - czchen@debian.org
-  categories:
-    - devel
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: kubectx
-  binnames:
-    - kubectx
-  visiblename: kubectx
-  version: 0.9.3
-  origversion: 0.9.3-1
-  status: outdated
-  maintainers:
-    - czchen@debian.org
-  categories:
-    - misc
-- repo: scoop
-  subrepo: main
+- repo: wakemeops
+  subrepo: devops
   binname: kubectx
   visiblename: kubectx
-  version: 0.11.0
+  version: 0.10.0
+  origversion: 0.10.0-3~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: devops
+  binname: kubectx
+  visiblename: kubectx
+  version: 0.9.5
+  origversion: 0.9.5-3~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: nix_stable_25_11
+  srcname: kubectx
+  visiblename: kubectx
+  version: 0.9.5
   origversion: null
-  status: newest
+  status: outdated
+  summary: Fast way to switch between clusters and namespaces in kubectl
+  maintainers:
+    - jl@lafuente.me
   licenses:
     - Apache-2.0
 - repo: alpine_3_17
@@ -684,6 +636,21 @@
     - MIT
   categories:
     - app-admin
+- repo: ubuntu_25_10
+  subrepo: questing/universe
+  srcname: kubectx
+  binnames:
+    - kubectx
+  visiblename: kubectx
+  version: 0.9.5
+  origversion: 0.9.5-2
+  status: outdated
+  maintainers:
+    - team+kubernetes@tracker.debian.org
+    - arthurbdiniz@gmail.com
+    - czchen@debian.org
+  categories:
+    - universe/misc
 - repo: gentoo
   srcname: app-admin/kubectx
   visiblename: app-admin/kubectx
@@ -861,17 +828,6 @@
     - jl@lafuente.me
   licenses:
     - Apache-2.0
-- repo: nix_stable_25_11
-  srcname: kubectx
-  visiblename: kubectx
-  version: 0.9.5
-  origversion: null
-  status: outdated
-  summary: Fast way to switch between clusters and namespaces in kubectl
-  maintainers:
-    - jl@lafuente.me
-  licenses:
-    - Apache-2.0
 - repo: nix_stable_26_05
   srcname: kubectx
   visiblename: kubectx
@@ -962,19 +918,83 @@
   version: 0.9.5
   origversion: 0.9.5-1
   status: outdated
-- repo: pureos_amber
-  subrepo: amber/main
+- repo: pureos_landing
+  subrepo: landing/main
   srcname: kubectx
   binnames:
     - kubectx
   visiblename: kubectx
-  version: 0.6.2
-  origversion: 0.6.2-1
+  version: 0.9.5
+  origversion: 0.9.5-2
+  status: outdated
+  maintainers:
+    - team+kubernetes@tracker.debian.org
+    - arthurbdiniz@gmail.com
+    - czchen@debian.org
+  categories:
+    - devel
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: kubectx
+  binnames:
+    - kubectx
+  visiblename: kubectx
+  version: 0.9.3
+  origversion: 0.9.3-1
   status: outdated
   maintainers:
     - czchen@debian.org
   categories:
-    - devel
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: kubectx
+  binnames:
+    - kubectx
+  visiblename: kubectx
+  version: 0.9.5
+  origversion: 0.9.5-2
+  status: outdated
+  maintainers:
+    - team+kubernetes@tracker.debian.org
+    - arthurbdiniz@gmail.com
+    - czchen@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: kubectx
+  binnames:
+    - kubectx
+  visiblename: kubectx
+  version: 0.11.0
+  origversion: 0.11.0-2
+  status: newest
+  maintainers:
+    - team+kubernetes@tracker.debian.org
+    - arthurbdiniz@gmail.com
+    - czchen@debian.org
+  categories:
+    - misc
+- repo: scoop
+  subrepo: main
+  binname: kubectx
+  visiblename: kubectx
+  version: 0.11.0
+  origversion: null
+  status: newest
+  licenses:
+    - Apache-2.0
+- repo: slackbuilds
+  srcname: system/kubectx
+  visiblename: system/kubectx
+  version: 0.11.0
+  origversion: null
+  status: newest
+  maintainers:
+    - willysr@slackbuilds.org
+  categories:
+    - system
 - repo: ubuntu_24_04
   subrepo: noble/universe
   srcname: kubectx
@@ -1007,21 +1027,6 @@
     - universe/misc
 - repo: ubuntu_25_04
   subrepo: plucky/universe
-  srcname: kubectx
-  binnames:
-    - kubectx
-  visiblename: kubectx
-  version: 0.9.5
-  origversion: 0.9.5-2
-  status: outdated
-  maintainers:
-    - team+kubernetes@tracker.debian.org
-    - arthurbdiniz@gmail.com
-    - czchen@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_25_10
-  subrepo: questing/universe
   srcname: kubectx
   binnames:
     - kubectx
@@ -1104,24 +1109,6 @@
   visiblename: kubectx
   version: 0.10.2
   origversion: 0.10.2-3~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: devops
-  binname: kubectx
-  visiblename: kubectx
-  version: 0.10.0
-  origversion: 0.10.0-3~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: devops
-  binname: kubectx
-  visiblename: kubectx
-  version: 0.9.5
-  origversion: 0.9.5-3~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
